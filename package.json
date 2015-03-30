@@ -1,0 +1,20 @@
+{
+  "name": "mochaistanbul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "test": "node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --check-leaks"
+  },
+  "dependencies": {
+    "chai": "^2.2.0",
+    "istanbul": "^0.3.11"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "istanbul": "^0.3.11",
+    "mocha": "^2.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
